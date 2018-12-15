@@ -1,0 +1,31 @@
+{
+  "name": "webglrenderer",
+  "version": "1.0.0",
+  "description": "WebGLRenderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "bulid": "webpack-cli --mode production",
+    "watch": "webpack-cli -w --mode development",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsopocko/webGLRenderer.git"
+  },
+  "author": "Luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsopocko/webGLRenderer/issues"
+  },
+  "homepage": "https://github.com/lsopocko/webGLRenderer#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
