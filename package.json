@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "bulid": "webpack-cli --mode production",
+    "build": "webpack-cli --mode production",
     "watch": "webpack-cli -w --mode development",
     "start": "webpack-dev-server"
   },
@@ -20,12 +20,21 @@
   },
   "homepage": "https://github.com/lsopocko/webGLRenderer#readme",
   "devDependencies": {
+    "@tweenjs/tween.js": "^17.2.0",
+    "@types/math3d": "^0.2.2",
+    "@types/tween.js": "^16.9.0",
     "clean-webpack-plugin": "^1.0.0",
     "html-webpack-plugin": "^4.0.0-beta.5",
+    "math3d": "^0.2.2",
+    "shader-loader": "^1.3.1",
     "ts-loader": "^5.3.1",
+    "ts-shader-loader": "^1.0.5",
     "typescript": "^3.2.1",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@types/webgl2": "0.0.4"
   }
 }

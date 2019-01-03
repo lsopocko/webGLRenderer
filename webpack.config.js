@@ -14,6 +14,10 @@ module.exports = {
         test: /\.ts?$/,
         use: 'ts-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.(glsl|vs|fs)$/,
+        loader: 'ts-shader-loader'
       }
     ]
   },
@@ -26,7 +30,7 @@ module.exports = {
     overlay: true
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js', '.glsl']
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
