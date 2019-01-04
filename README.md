@@ -1,6 +1,12 @@
 # Basic webgl renderer
 
-Work in progress. More to come soon.
+```npm install```
+
+Then
+
+```npm run start```
+
+Go to http://localhost:9001/ and admire rotating cube!
 
 ## TODO
 
